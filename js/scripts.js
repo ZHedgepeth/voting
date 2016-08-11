@@ -3,5 +3,7 @@ $(document).ready(function() {
 
   if (age >= 18) {
     $('#adult').show();
+  } else {
+    $('#minor').show();
   }
 });
